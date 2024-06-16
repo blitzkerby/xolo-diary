@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cff1570a74f58730",
+        "id": "c45bf4be81e793e8",
         "type": "tabs",
         "children": [
           {
-            "id": "d92d1057628c645b",
+            "id": "87496f494bc32bee",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -161,19 +161,19 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "homepage:Open homepage": false,
       "obsidian-importer:Open Importer": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "d92d1057628c645b",
+  "active": "87496f494bc32bee",
   "lastOpenFiles": [
-    "02 - obsidian/TODO-LIST.md",
-    "01 - docs/Convention Guide.md",
-    "03 - proto",
-    "01 - docs/ReadMe.md",
     "01 - docs/Documentation (For Advanced Users).md",
+    "01 - docs/ReadMe.md",
+    "Home.md",
+    "01 - docs/Convention Guide.md",
+    "02 - obsidian/TODO-LIST.md",
+    "03 - proto",
     "02 - log/Untitled Kanban 1.md",
     "02 - obsidian",
     "01 - docs/META/instruction-open-vault.png",
