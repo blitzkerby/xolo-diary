@@ -11,19 +11,11 @@
             "id": "d92d1057628c645b",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "02 - obsidian/TODO-LIST.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "01 - docs/Convention Guide.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -101,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 - obsidian/TODO-LIST.md",
+                "file": "01 - docs/Convention Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 - obsidian/TODO-LIST.md",
+                "file": "01 - docs/Convention Guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 - obsidian/TODO-LIST.md"
+                "file": "01 - docs/Convention Guide.md"
               }
             }
           },
@@ -169,7 +161,6 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false,
       "homepage:Open homepage": false,
       "obsidian-importer:Open Importer": false,
       "obsidian-full-calendar:Open Full Calendar": false,
@@ -178,10 +169,11 @@
   },
   "active": "d92d1057628c645b",
   "lastOpenFiles": [
+    "02 - obsidian/TODO-LIST.md",
+    "01 - docs/Convention Guide.md",
+    "03 - proto",
     "01 - docs/ReadMe.md",
     "01 - docs/Documentation (For Advanced Users).md",
-    "01 - docs/Convention Guide.md",
-    "02 - obsidian/TODO-LIST.md",
     "02 - log/Untitled Kanban 1.md",
     "02 - obsidian",
     "01 - docs/META/instruction-open-vault.png",

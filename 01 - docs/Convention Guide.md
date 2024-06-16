@@ -14,3 +14,11 @@
 	* SAVING
 
 
+* Application files are located under `.xolonotes` 
+
+#### DO NOT ADD ANY APPLICATION FILES OUTSIDE OF `.xolonotes`!
+
+
+
+
+

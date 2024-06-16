@@ -18,6 +18,10 @@ kanban-plugin: board
 
 ## DESIGN
 
+- [ ] build app component
+- [ ] build app wireframe
+- [ ] build desktop UI screen
+- [ ] build mobile UI screen
 
 
 ## INFRASTRUCTURE
