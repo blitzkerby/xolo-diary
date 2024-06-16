@@ -1,1 +1,20 @@
-{}
+{
+  "accentColor": "#66ff75",
+  "theme": "obsidian",
+  "cssTheme": "Vanilla AMOLED",
+  "textFontFamily": "JetBrains Mono NL",
+  "monospaceFontFamily": "JetBrains Mono NL",
+  "interfaceFontFamily": "JetBrains Mono NL",
+  "enabledCssSnippets": [
+    "Iterative Rainbow Folder Backgrounds",
+    "Iterative Rainbow Folder Icons",
+    "Iterative Rainbow Folder Titles",
+    "Daily Note Themes",
+    "Minecraft",
+    "RuneScape",
+    "Colored Sidebar Items",
+    "Notebook Backgrounds"
+  ],
+  "baseFontSizeAction": true,
+  "baseFontSize": 15
+}

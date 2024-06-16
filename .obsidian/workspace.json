@@ -1,18 +1,22 @@
 {
   "main": {
-    "id": "a23f149fd75dc7c8",
+    "id": "305b929237853216",
     "type": "split",
     "children": [
       {
-        "id": "e885712d9aa26ee6",
+        "id": "242d4e70ef1ba6a5",
         "type": "tabs",
         "children": [
           {
-            "id": "4525c59a97297186",
+            "id": "4ebb744141de5818",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "docs/Convention Guide.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -21,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "303d175ab2995d27",
+    "id": "2925b68cce0010a8",
     "type": "split",
     "children": [
       {
-        "id": "f724b5b47a5d30d6",
+        "id": "429e29b2b9b0f1fa",
         "type": "tabs",
         "children": [
           {
-            "id": "e4c9d6d8d0735d39",
+            "id": "84d5390f15503459",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,7 +43,7 @@
             }
           },
           {
-            "id": "79dfb3d50aca2f93",
+            "id": "d91160fdd397650e",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,7 +58,7 @@
             }
           },
           {
-            "id": "5197df74233dd06b",
+            "id": "541c6c7cd9e04645",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -68,19 +72,20 @@
     "width": 300
   },
   "right": {
-    "id": "dc1b6ae7b72c832e",
+    "id": "0e96b35989472dcb",
     "type": "split",
     "children": [
       {
-        "id": "5ce57c7cea38f333",
+        "id": "8929eee8e6f8c062",
         "type": "tabs",
         "children": [
           {
-            "id": "20fcb6e924782ce3",
+            "id": "0fa8e11b576ffbbe",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docs/Convention Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,18 +97,19 @@
             }
           },
           {
-            "id": "800576197a0ad635",
+            "id": "08d94a7c6297830b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "docs/Convention Guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "d1be9055f369ed6c",
+            "id": "49d567f180e250a6",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -114,11 +120,13 @@
             }
           },
           {
-            "id": "d8ba212ba859bc94",
+            "id": "2988af914804c306",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "docs/Convention Guide.md"
+              }
             }
           }
         ]
@@ -138,19 +146,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4525c59a97297186",
+  "active": "84d5390f15503459",
   "lastOpenFiles": [
-    "Documentation of Diary Application.md",
-    "docs/Documentation of Diary Application.md",
-    "Convention Guide.md",
     "docs/Documentation (For Advanced Users).md",
     "docs/Convention Guide.md",
-    "docs",
-    "index.html",
-    "src/index.html",
-    "src",
-    "New folder",
-    "Documentation (For Advanced Users).md",
-    "README.md"
+    "docs/ReadMe.md"
   ]
 }
