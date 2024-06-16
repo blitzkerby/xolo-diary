@@ -11,6 +11,6 @@
 	* UNDO
 	* REDO
 	* MERGE
-	* SAVING (shorthand for saving the state of .obsidian)
+	* SAVING
 
 
