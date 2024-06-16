@@ -6,4 +6,11 @@
 * ***Common message terms***:
 	* *INIT* or *INITIALIZE*
 	* *MODIFIED*
-	* 
+	* FIX
+	* REVAMP
+	* UNDO
+	* REDO
+	* MERGE
+	* SAVING (shorthand for saving the state of .obsidian)
+
+
