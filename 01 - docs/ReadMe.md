@@ -33,3 +33,8 @@ If all of it is enabled, the `02 - obsidian` folder will be accessible.
 
 
 
+# Figma
+---
+
+Visit this [link](https://www.figma.com/design/OlAUYq9oxvKFWRGXgYjj3W/Untitled?node-id=0-1&t=fHZ4DUKkpRvqWri5-1) to view our Figma design file.
+
