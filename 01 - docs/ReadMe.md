@@ -26,5 +26,10 @@ If all of it is enabled, the `02 - obsidian` folder will be accessible.
 # Git Contribution
 ----
 
+#### Git conflicts in `.obsidian`
+
+> it is generally safe to resolve conflict without changing anything. However, be careful of changes to the `01 - docs` and `02 - obsidian` folder!
+
+
 
 

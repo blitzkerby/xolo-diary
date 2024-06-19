@@ -16,3 +16,7 @@ This documentation is intended for developers interested in contributing to the 
 - Software development lifecycle (SDLC) principles
 
 **If you are new to contributing to open-source projects, this documentation will guide you through the process.** We encourage you to explore the resources listed in the "Getting Started" section for further learning.
+
+
+
+
