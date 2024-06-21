@@ -26,13 +26,14 @@ kanban-plugin: board
 - [x] Build create card
 - [ ] Build footer component for each UI screen
 - [ ] Build modal interface for creating and editing cards
-- [ ] Build interactive home page
+- [x] Build interactive home page
 
 
 ## INFRASTRUCTURE
 
-- [ ] build a system architecture
-- [ ] build an information architecture
+- [x] build a system architecture
+- [x] build an information architecture
+- [ ] build a CRUD template
 
 
 ## Archive

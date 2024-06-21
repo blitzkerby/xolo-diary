@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "ReadMe",
-      "path": "01 - docs/ReadMe.md"
+      "basename": "Convention Guide",
+      "path": "01 - docs/Convention Guide.md"
+    },
+    {
+      "basename": "instruction-open-vault",
+      "path": "01 - docs/META/instruction-open-vault.png"
     },
     {
       "basename": "Documentation (For Advanced Users)",
       "path": "01 - docs/Documentation (For Advanced Users).md"
     },
     {
-      "basename": "Convention Guide",
-      "path": "01 - docs/Convention Guide.md"
+      "basename": "ReadMe",
+      "path": "01 - docs/ReadMe.md"
     },
     {
       "basename": "TODO-LIST",
       "path": "02 - obsidian/TODO-LIST.md"
+    },
+    {
+      "basename": "2024-06-20 Revamping of UI Cards",
+      "path": "02 - obsidian/Update Log/2024-06-20 Revamping of UI Cards.md"
     },
     {
       "basename": "2024-06-18 Overhauled UI Design",
@@ -39,10 +47,6 @@
     {
       "basename": "instruction-turn-on-community-plugins",
       "path": "01 - docs/META/instruction-turn-on-community-plugins.png"
-    },
-    {
-      "basename": "instruction-open-vault",
-      "path": "01 - docs/META/instruction-open-vault.png"
     }
   ],
   "omittedPaths": []
