@@ -1,7 +1,0 @@
----
-~
----
----
-
-CRUD SYSTEM ARCHITECTURE 
----
