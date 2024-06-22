@@ -1,5 +1,5 @@
 const header = {
-    path: "./.xolonotes/images/icons/logo.png",
+    path: "./src/images/icons/logo.png",
     alt : "xolo logo",
     id  : "logo",
 };
