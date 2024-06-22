@@ -18,6 +18,6 @@ const logoHTML = `
 export function loadHeader()
 {
 document.querySelector("header").innerHTML = `
-    <!-- ${logoHTML} -->  
+    ${logoHTML}  
 `;
 }
