@@ -15,7 +15,7 @@ date: 2024-06-18
 
 > I’ve found out there is a Japanese festival called Ochugen and Oseibo where people exchange gifts wrapped very colorful decorative paper called a noshi. 
 > 
-> Maybe every note every should try to follow a similar asthetic.
+> Maybe every note every should try to follow a similar aesthetic.
 > 
 > I also don’t know Japanese, but Gemini provided a really good slogan: 
 > 
