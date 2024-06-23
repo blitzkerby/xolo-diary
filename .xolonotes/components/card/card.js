@@ -1,9 +1,16 @@
-const notesContainer = document.querySelector(".notes-container");
-const createBtn = document.querySelector(".btn");
+const data = {
+  notes_container : ".notes-container",
+  create_btn : ".btn",
+  delete_img_path : "./.xolonotes/images/icons/delete.png",
+  input_box : ".input-box",
+}
 
-const delete_img_path = "./.xolonotes/images/delete.png";
 
-let notes = document.querySelectorAll(".input-box");
+const notesContainer  = document.querySelector(data.notes_container);
+const createBtn       = document.querySelector(data.create_btn);
+const delete_img_path = data.delete_img_path;
+
+let notes = document.querySelectorAll(data.input_box);
 
 function showNotes() {
   notesContainer.innerHTML = localStorage.getItem("notes");
