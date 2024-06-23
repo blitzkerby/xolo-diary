@@ -34,8 +34,21 @@
                 }
               }
             }
+          },
+          {
+            "id": "594f8631581e0322",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - docs/Convention Guide.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 - obsidian/TODO-LIST.md",
+                "file": "01 - docs/Convention Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 - obsidian/TODO-LIST.md",
+                "file": "01 - docs/Convention Guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 - obsidian/TODO-LIST.md"
+                "file": "01 - docs/Convention Guide.md"
               }
             }
           },
@@ -196,8 +209,9 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "e25d7ce5096ad8b7",
+  "active": "594f8631581e0322",
   "lastOpenFiles": [
+    "02 - obsidian/TODO-LIST.md",
     "02 - obsidian/Update Log/2024-06-20 Revamping of UI Cards.md",
     "02 - obsidian/Update Log/2024-06-18 Overhauled UI Design.md",
     "02 - obsidian/Update Log/META/18-06-2024/New UI design.png",
@@ -210,7 +224,6 @@
     "01 - docs/META/instruction-turn-on-community-plugins.png",
     "Home.md",
     "02 - obsidian/Update Log/2024-06-17 Created UI Design.md",
-    "02 - obsidian/TODO-LIST.md",
     "99 - Meta/true-src-code/bootstrap-main/SECURITY.md",
     "99 - Meta/true-src-code/bootstrap-main/README.md",
     "Pasted image 20240621094355.png",

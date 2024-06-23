@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Convention Guide",
+      "path": "01 - docs/Convention Guide.md"
+    },
+    {
       "basename": "TODO-LIST",
       "path": "02 - obsidian/TODO-LIST.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "Space-theme-components",
       "path": "02 - obsidian/Update Log/META/17-06-2024/Space-theme-components.png"
-    },
-    {
-      "basename": "Convention Guide",
-      "path": "01 - docs/Convention Guide.md"
     },
     {
       "basename": "Documentation (For Advanced Users)",
