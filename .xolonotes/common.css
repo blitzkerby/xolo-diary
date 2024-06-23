@@ -1,5 +1,6 @@
 html {
     font-size: 16px;
+    font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -15,18 +16,10 @@ body {
 }
 
 
-main{
-    /* height: 1000px;
-    width: 100%;
-    background-image: url('./images/background-desktop.png');
-    background-repeat: no-repeat;
-    background-position-x: center; */
-}
-
 .container {
     background-color: rgb(148, 101, 101);
     width: 100%;
-    max-width: 1000px;
+    max-width: 75%;
 }
 
 

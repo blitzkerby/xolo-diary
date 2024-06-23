@@ -29,13 +29,13 @@ const journalHTML = imgHTML(header_assets.page_text.journal);
 
 export function loadHeader()
 {
-document.querySelector("header").innerHTML = `
-    <ul class="nav-list">
-        <li class="nav-item nav-logo">${xoloHTML}</li>
-        <li class="nav-item nav-text">${homeHTML}</li>
-        <li class="nav-item nav-logo">${githubHTML}</li>
-    </ul>
-    <div class="header-canvas left-shift"><div>
-    <div class="header-canvas right-shift"><div>
-`;
+  document.querySelector("header").innerHTML = `
+      <ul class="nav-list">
+          <li class="nav-item nav-logo">${xoloHTML}</li>
+          <li class="nav-item nav-text">${homeHTML}</li>
+          <li class="nav-item nav-logo">${githubHTML}</li>
+      </ul>
+      <div class="header-canvas left-shift"><div>
+      <div class="header-canvas right-shift"><div>
+  `;
 }
