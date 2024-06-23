@@ -6,6 +6,21 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    height: 1000px;
+    width: 100%;
+    background-image: url('./images/background-desktop.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+
+main{
+    /* height: 1000px;
+    width: 100%;
+    background-image: url('./images/background-desktop.png');
+    background-repeat: no-repeat;
+    background-position-x: center; */
 }
 
 .container {
@@ -14,3 +29,8 @@ body {
     max-width: 1000px;
 }
 
+
+@media screen and (max-width: 672px)
+{
+
+}

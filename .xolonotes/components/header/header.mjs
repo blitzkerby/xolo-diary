@@ -35,5 +35,7 @@ document.querySelector("header").innerHTML = `
         <li class="nav-item nav-text">${homeHTML}</li>
         <li class="nav-item nav-logo">${githubHTML}</li>
     </ul>
+    <div class="header-canvas left-shift"><div>
+    <div class="header-canvas right-shift"><div>
 `;
 }
