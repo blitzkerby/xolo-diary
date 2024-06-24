@@ -10,6 +10,9 @@ kanban-plugin: board
 
 ## DEVELOPMENT
 
+- [ ] work on __hoverButton.js
+- [ ] work on buttonPurpose.js
+- [ ] work on button.js
 
 
 ## PRODUCTION
@@ -34,6 +37,10 @@ kanban-plugin: board
 - [x] build a system architecture
 - [x] build an information architecture
 - [ ] build a CRUD template
+- [ ] build convention guide
+- [ ] build flowguide
+- [ ] build IA
+- [ ] build documentation
 
 
 ## Archive

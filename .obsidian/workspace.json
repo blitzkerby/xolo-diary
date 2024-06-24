@@ -16,39 +16,19 @@
             }
           },
           {
-            "id": "779009d3846833f7",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "02 - obsidian/TODO-LIST.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              }
-            }
-          },
-          {
-            "id": "594f8631581e0322",
+            "id": "ad55cd3e54fe7598",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - docs/Convention Guide.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - docs/Convention Guide.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 - docs/Convention Guide.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 - docs/Convention Guide.md"
+                "file": "Home.md"
               }
             }
           },
@@ -209,20 +189,20 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "594f8631581e0322",
+  "active": "ad55cd3e54fe7598",
   "lastOpenFiles": [
     "02 - obsidian/TODO-LIST.md",
+    "Home.md",
     "02 - obsidian/Update Log/2024-06-20 Revamping of UI Cards.md",
+    "01 - docs/Convention Guide.md",
     "02 - obsidian/Update Log/2024-06-18 Overhauled UI Design.md",
     "02 - obsidian/Update Log/META/18-06-2024/New UI design.png",
     "02 - obsidian/Update Log/META/Untitled.md",
     "02 - obsidian/Update Log/META/17-06-2024/Space-theme-components.png",
-    "01 - docs/Convention Guide.md",
     "01 - docs/Documentation (For Advanced Users).md",
     "01 - docs/ReadMe.md",
     "01 - docs/META/instruction-open-vault.png",
     "01 - docs/META/instruction-turn-on-community-plugins.png",
-    "Home.md",
     "02 - obsidian/Update Log/2024-06-17 Created UI Design.md",
     "99 - Meta/true-src-code/bootstrap-main/SECURITY.md",
     "99 - Meta/true-src-code/bootstrap-main/README.md",

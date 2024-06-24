@@ -1,4 +1,8 @@
 .git
 .obsidian/plugins/recent-files-obsidian/data.json
 .obsidian/workspace.json
+.obsidian/plugins/obsidian-completr/scanned_words.txt
+.obsidian/plugins/obsidian-spaced-repetition/data.json
+.obsidian/plugins/recent-files-obsidian/data.json
+.obsidian/workspace.json
 .vscode
