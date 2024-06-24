@@ -17,3 +17,16 @@ main h1 {
 main h2 {
     font-size : 1.25rem;
 }
+
+.hero{
+    height: 431.99px;
+}
+
+.gradient-text {
+  background-image: linear-gradient(45deg, #7E7373, #D2BDBD);
+  background-size: 100%;  /* Cover the entire text area */
+  background-clip: text;
+  color: transparent;
+  /* Additional styles for the text (font-size, etc.) */
+}
+

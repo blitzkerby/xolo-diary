@@ -1,4 +1,9 @@
-.centered {
+.centered-x {
     display: flex;
     justify-content: center;
+}
+
+.centered-y {
+    display: flex;
+    align-items: center;
 }
