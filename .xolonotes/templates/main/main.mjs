@@ -2,15 +2,15 @@ const username = "Kerby";
 
 const options = {
   greeting: {
-    element: "h2",
-    class: "poppins-light",
-    text: `Welcome back ${username}`,
+    element : "h2",
+    class   : "poppins-light  gradient-text",
+    text    : `Welcome back, ${username}`,
   },
 
   hero_text: {
-    element: "h1",
-    class: "poppins-extrabold  gradient-text  centered-y",
-    text: "Ready to jump back in?",
+    element : "h1",
+    class   : "poppins-extrabold  gradient-text",
+    text    : "Ready to jump back in?",
   },
 };
 
@@ -24,15 +24,15 @@ const createText = (params) => {
 
 export function loadMain() {
   document.querySelector("main").innerHTML = `
-    <div class="container">
-
+<div class="container">
+    <section class="centered-x">
         ${createText(options.greeting)}
+    </section>
 
-      <section class="hero centered-x">
 
+    <section class="centered-x">
         ${createText(options.hero_text)}
-
-      </section>
-    </div>
+    </section>
+</div>
   `;
 }

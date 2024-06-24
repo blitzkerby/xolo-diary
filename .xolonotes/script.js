@@ -1,19 +1,26 @@
 import { loadHeader } from "./components/header/header.mjs";
 import { loadMain } from "./templates/main/main.mjs";
-import { createButton } from "./components/button/button.mjs";
-
-const buttons = {
-  furniture: {
-    path: "./.xolonotes/images/icons/furniture.svg",
-    alt: "furniture",
-  },
-};
+import { createButton } from "./components/button/button.js";
 
 loadHeader();
 loadMain();
 
-document.querySelector(".hero").innerHTML += `
-    <div class="buttons">
-        ${createButton(buttons.furniture)}
-    </div>
-`;
+const button = {
+    note : 
+    { 
+        id : "notebook-button",
+        img_path : "./.xolonotes/images/icons/notebook.svg",
+        img_alt  : "notebook icon",
+    }
+
+}
+
+
+const params = {
+    target    : 'main .container',
+    btn_id    : 'notebook-btn',
+    img_path  : "./.xolonotes/images/icons/notebook.svg",
+    img_alt   : "notebook icon",
+}
+
+createButton(params)

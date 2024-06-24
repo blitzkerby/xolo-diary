@@ -1,10 +1,10 @@
-const data = {
+const data =
+{
   notes_container : ".notes-container",
-  create_btn : ".btn",
+  create_btn      : ".btn",
   delete_img_path : "./.xolonotes/images/icons/delete.png",
-  input_box : ".input-box",
+  input_box       : ".input-box",
 }
-
 
 const notesContainer  = document.querySelector(data.notes_container);
 const createBtn       = document.querySelector(data.create_btn);
