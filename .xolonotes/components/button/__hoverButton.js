@@ -10,7 +10,13 @@
  */
 
 
-export function __hoverButton()
-{
-    console.log("hover button js accessed!")
+export function __hoverButton(btn_id) {
+  const button = document.querySelector(`${btn_id}`);
+  const svg_path_element = document.querySelector(`${btn_id} svg path`);
+
+  svg_path_element.style.fill = "Black";
+
+  button.addEventListener("mouseleave", () => {
+    svg_path_element.style.fill = "White";
+  });
 }

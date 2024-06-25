@@ -5,22 +5,17 @@ import { createButton } from "./components/button/button.js";
 loadHeader();
 loadMain();
 
-const button = {
-    note : 
-    { 
-        id : "notebook-button",
-        img_path : "./.xolonotes/images/icons/notebook.svg",
-        img_alt  : "notebook icon",
-    }
+const buttons = {
+    notes : {
+        target    : 'main .container',
+        btn_id    : 'notebook-btn',
+        img_path  : "./.xolonotes/images/icons/notebook-white.svg",
+        img_alt   : "notebook icon",
+        img_active_path  : "./.xolonotes/images/icons/notebook-black.svg",
+        img_active_alt   : "notebook active icon",
+    },
+    
 
 }
 
-
-const params = {
-    target    : 'main .container',
-    btn_id    : 'notebook-btn',
-    img_path  : "./.xolonotes/images/icons/notebook.svg",
-    img_alt   : "notebook icon",
-}
-
-createButton(params)
+createButton(buttons.notes)

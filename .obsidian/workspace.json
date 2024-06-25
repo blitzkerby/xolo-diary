@@ -16,14 +16,12 @@
             }
           },
           {
-            "id": "ad55cd3e54fe7598",
+            "id": "311f84c29cf2847d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Home.md",
-                "mode": "source",
-                "source": false
+                "file": "02 - obsidian/Update Log/META/17-06-2024/Space-theme.png"
               }
             }
           }
@@ -102,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "02 - obsidian/Update Log/META/17-06-2024/Space-theme.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "02 - obsidian/Update Log/META/17-06-2024/Space-theme.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "02 - obsidian/Update Log/META/17-06-2024/Space-theme.png"
               }
             }
           },
@@ -189,11 +187,11 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "ad55cd3e54fe7598",
+  "active": "311f84c29cf2847d",
   "lastOpenFiles": [
-    "temporary.html",
     "02 - obsidian/TODO-LIST.md",
     "Home.md",
+    "temporary.html",
     "02 - obsidian/Update Log/2024-06-20 Revamping of UI Cards.md",
     "01 - docs/Convention Guide.md",
     "02 - obsidian/Update Log/2024-06-18 Overhauled UI Design.md",
@@ -233,7 +231,6 @@
     "99 - Meta/artifact/module pattern variations",
     "99 - Meta/artifact/example/exports",
     "99 - Meta/artifact/example/Import MIxins/usage.js",
-    "99 - Meta/artifact/example/Import MIxins/mixins.mjs",
     "99 - Meta/true-src-code/bootstrap-main/nuget/bootstrap.png",
     "99 - Meta/true-src-code/bootstrap-main/site/static/docs/5.3/assets/img/guides/webpack-dev-server.png",
     "99 - Meta/true-src-code/bootstrap-main/site/static/docs/5.3/assets/img/guides/webpack-dev-server-bootstrap.png",
