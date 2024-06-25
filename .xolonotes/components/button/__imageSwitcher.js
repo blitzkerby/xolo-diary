@@ -1,4 +1,5 @@
-class ImageSwitcher {
+  class ImageSwitcher 
+  {
     constructor(buttonId, defaultImageId, secondaryImageId) {
       this.button = document.getElementById(buttonId);
       this.defaultImage = document.getElementById(defaultImageId);
@@ -17,26 +18,26 @@ class ImageSwitcher {
       this.defaultImage.classList.remove("hidden");
     }
 
-    toggleImages(){
-      const toggleVisibility = () => {
-        this.defaultImage.classList.toggle("hidden");
-        this.secondaryImage.classList.toggle("hidden");
-        console.log("BLYAT")
-      }
+    // MAKE THIS INTO A LOAD ALL CONTENT INTO BUTTON.JS
 
-      this.button.addEventListener("mouseover", toggleVisibility);
-      this.button.addEventListener("mouseleave", toggleVisibility);
+
+
+    onLoad(){
+      // console.log("DOM is loaded!");
+      this.hidesecondaryImage()
     }
-  
+
     attachEventListeners() {
+      // document.addEventListener("DOMContentLoaded", this.onLoad.bind(this))
+      this.button.addEventListener("mouseover", this.showsecondaryImage.bind(this));
       this.button.addEventListener("mouseleave", this.hidesecondaryImage.bind(this));
-      this.button.addEventListener("mouseover", this.toggleImages.bind(this)); // Assuming __hoverButton is a method within the class
     }
   }
 
 
 // function to be exported
-function createImageSwitcher(buttonId, defaultImageId, secondaryImageId) {
+function createImageSwitcher(buttonId, defaultImageId, secondaryImageId) 
+{
     return new ImageSwitcher(buttonId, defaultImageId, secondaryImageId);
 }
   
@@ -44,6 +45,6 @@ export default createImageSwitcher;
 
 //     (*) Usage
 //   -------------------
-//   > const imageSwitcher = createImageSwitcher("btn_id", "btn_id-default", "btn_id-active");
-//   > imageSwitcher.attachEventListeners();
+//   > const imageSwitcher = createImageSwitcher(buttonId, defaultImageId, secondaryImageId);
+//   > imageSwitcher.attachEventListeners(buttonId, defaultImageId, secondaryImageId);
 
