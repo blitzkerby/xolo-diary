@@ -1,3 +1,16 @@
+/*
+ * OVERRIDING EXISTING STYLES
+ */
+
+.container{
+    max-width: none !important;
+    padding: 30px;
+}
+
+.container-wrapper{
+    width: 100%;
+}
+
 .container h1 {
     display: flex;
     align-items: center;
@@ -28,6 +41,15 @@
     cursor: pointer;
 }
 
+.notes-container-wrapper {
+    display: grid;
+    width: inherit;
+    grid-template-columns: repeat(3, 1fr);  /* Three columns of equal width */
+    grid-template-rows: 200px auto;         /* First row 200px tall, second row auto-sized */
+    column-gap: 30px;
+    max-width: 1200px;
+}
+
 .input-box {
     position: relative;
     width: 100%;
@@ -48,3 +70,4 @@
     right: 15px;
 
 }
+
