@@ -11,11 +11,19 @@ const buttons = {
         btn_id    : 'notebook-btn',
         img_path  : "./.xolonotes/images/icons/notebook-white.svg",
         img_alt   : "notebook icon",
-        img_active_path  : "./.xolonotes/images/icons/notebook-black.svg",
-        img_active_alt   : "notebook active icon",
+        img_secondary_path  : "./.xolonotes/images/icons/notebook-black.svg",
+        img_secondary_alt   : "notebook active icon",
     },
     
-
+    calendar : {
+        target : 'main .button-container',
+        btn_id : 'calendar-btn',
+        img_path : "./.xolonotes/images/icons/calendar-white.svg",
+        img_alt : "calendar icon",
+        img_secondary_path : "./.xolonotes/images/icons/calendar-black.svg",
+        img_secondary_alt : "calendar active icon",
+    },
 }
 
 createButton(buttons.notes)
+createButton(buttons.calendar)
