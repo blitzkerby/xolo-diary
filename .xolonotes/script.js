@@ -12,7 +12,7 @@ const buttons = {
         img_path  : "./.xolonotes/images/icons/notebook-white.svg",
         img_alt   : "notebook icon",
         img_secondary_path  : "./.xolonotes/images/icons/notebook-black.svg",
-        img_secondary_alt   : "notebook active icon",
+        img_secondary_alt   : "notebook secondary icon",
     },
     
     calendar : {
@@ -21,7 +21,7 @@ const buttons = {
         img_path : "./.xolonotes/images/icons/calendar-white.svg",
         img_alt : "calendar icon",
         img_secondary_path : "./.xolonotes/images/icons/calendar-black.svg",
-        img_secondary_alt : "calendar active icon",
+        img_secondary_alt : "calendar secondary icon",
     },
 }
 

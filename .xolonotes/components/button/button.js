@@ -9,8 +9,11 @@ function buttonHTML(params){
 `
 }
 
-function load(){
-  
+function load() {
+  const buttonList = document.querySelectorAll("button");
+  buttonList.forEach(button => {
+    console.log(button)
+  });
 }
 
 
@@ -27,7 +30,7 @@ export function createButton(params){
   // buttonPurpose(params.btn_id);
   const imageSwitcher = createImageSwitcher(params.btn_id, `${params.btn_id}-default`,`${params.btn_id}-secondary`);
   imageSwitcher.attachEventListeners();
-  load();
+  // load()
 } 
 
 

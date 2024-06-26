@@ -13,7 +13,7 @@
 export function __hoverButton(btn_id) {
   console.log("test")
   
-  const button = document.getElementById(btn_id);
+  const button      = document.getElementById(btn_id);
   const default_img = document.getElementById(`${btn_id}-default`);
   const active_img  = document.getElementById(`${btn_id}-active`);
 

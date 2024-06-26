@@ -1,3 +1,12 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url('/.xolonotes/images/background-desktop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+};
+
 main{
     position: absolute;
     height: 100%;
@@ -18,13 +27,30 @@ main h2 {
     font-size : 1.25rem;
 }
 
-.gradient-text {
-    background-image: linear-gradient(45deg, #7E7373, #D2BDBD);
-    background-size: 100%;  
-    background-clip: text;
-    color: transparent;
-}
-
 main .container{
     padding-top: 201px;
 }
+
+
+html {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.container {
+    /* background-color: rgb(148, 101, 101); */
+    width: 100%;
+    max-width: 75%;
+}
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+@media screen and (max-width: 672px)
+{
+
+}
+
