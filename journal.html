@@ -23,23 +23,34 @@
     <link rel="stylesheet" href="./.xolonotes/components/header/header.css">
     <link rel="stylesheet" href="./.xolonotes/components/button/button.css">
 
+    <!-- EXPERIMENTAL -->
+    <link rel="stylesheet" href="./modal.css">
 </head>
 <body>
     <header></header>
 
-    <!-- <main></main> -->
+    <notes class="hidden"></notes>
 
     <div class="container">
         <h1> <img src="./.xolonotes/images/icons/notes.png" alt="notes"> Notes</h1>
         <button class="btn"> <img src="./.xolonotes/images/icons/edit.png" alt="edit">Create Notes</button>
     
         <div class="container-wrapper centered-x">
-            <p class="input-box" contenteditable="true"></p>
+            <div class="notes-container-wrapper">
+                <div class="entry-card">
+                    <div class="title">TEST</div>
+                    <div class="content">test</div>
+                    <div class="date">22-07-2024</div>
+                </div>
+            </div>
         </div>
     </div>
 
 
-    <script type="module" src="./.xolonotes/script.js"></script>
-    <script src="./.xolonotes/templates/journal/journal.js"></script>
+    <!-- <script type="module" src="./.xolonotes/script.js"></script> -->
+    
+    <script type="module" src="./modal.js"></script>
+    <!-- <script src="./journal.js"></script> -->
+    <!-- <script src="./.xolonotes/templates/journal/journal.js"></script> -->
 </body>
 </html>

@@ -1,5 +1,6 @@
 class NotesManager {
     constructor(config) {
+        this.UID              = config.id
         this.container        = document.querySelector(config.notes_container);
         this.createBtn        = document.querySelector(config.create_btn);
         this.deleteImagePath  = config.delete_img_path;
@@ -36,15 +37,14 @@ class NotesManager {
         this.createBtn.addEventListener("click", this.createNote.bind(this)); // Bind 'this' context
 
         this.container.addEventListener("click", (e) => {
-        if (e.target.tagName === "IMG") {
-            const noteToDelete = e.target.parentElement;
-            this.container.removeChild(noteToDelete);
-            this.notes.splice(this.notes.indexOf(noteToDelete.querySelector("p")), 1); // Remove from notes array
-            this.updateStorage();
-        }
-        else if (e.target.tagName === "P") {
-            this.notes.forEach((note) => {
-            note.addEventListener("keyup", this.updateStorage.bind(this));
+            if (e.target.tagName === "IMG") {
+                const noteToDelete = e.target.parentElement;
+                this.container.removeChild(noteToDelete);
+                this.notes.splice(this.notes.indexOf(noteToDelete.querySelector("p")), 1); // Remove from notes array
+                this.updateStorage();
+            } else if (e.target.tagName === "P") {
+                this.notes.forEach((note) => {
+                note.addEventListener("keyup", this.updateStorage.bind(this));
             });
         }
         });
@@ -52,6 +52,7 @@ class NotesManager {
 }
 
 const config = {
+    id : "note-1",
     notes_container: ".notes-container-wrapper",
     create_btn: ".btn",
     delete_img_path: "./.xolonotes/images/icons/delete.png",

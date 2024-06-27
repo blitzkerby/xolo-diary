@@ -33,7 +33,7 @@
   border-bottom: 1px solid #000000; /* Set border style, width, and color */
   padding: 37px 0;
   height: 633px;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   /* background-color: #bdbdbd44; Add a background color */
 }
 

@@ -4,4 +4,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
-};
+}
+
+.entry-card{
+    background-color: bisque;
+    height: auto;
+    width: auto;
+    padding: 15px;
+}
