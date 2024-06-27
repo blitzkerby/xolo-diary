@@ -24,6 +24,7 @@
 .content-container textarea, .content-container p{
   width: 100%;
   height: 633px;
+  padding: 5px;
   /* background-color: #bdbdbd44; */
 }
 
