@@ -31,18 +31,28 @@
 <body>
     <header></header>
 
+    <notes></notes>
 
     <div class="container-wrapper centered-x centered-y">
         <div class="modal-container container">
             <div class="header-container">
-                <h1 class="dm-mono-regular" contenteditable="True">The End?</h1>
-
+                <name></name>
             </div>
             <div class="content-container">
                 <content></content>
             </div>
             <div class="date-container">
-                <p class="dm-mono-regular">2021-01-01</p>
+                <!-- <p class="dm-mono-regular">
+                    2021-01-01
+                </p> -->
+                <input 
+                    class = "dm-mono-regular"
+                    type  = "date" 
+                    id    = "start" 
+                    name  = "trip-start" 
+                    value = "2018-07-22" 
+                    min   = "2018-01-01" 
+                    max   = "2018-12-31" />
             </div>
         </div>
     </div>
