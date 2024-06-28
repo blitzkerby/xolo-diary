@@ -1,61 +1,88 @@
-class NotesManager {
-    constructor(config) {
-        this.container        = document.querySelector(config.notes_container);
-        this.createBtn        = document.querySelector(config.create_btn);
-        this.deleteImagePath  = config.delete_img_path;
-        this.notes            = [];
+import { LoadNoteEditor } from "../../components/modal/modal.js";
 
-        this.showNotes();
-        this.attachEventListeners();
-    }
+const card_template = `
+    <div class="entry-card centered-x centered-y">
+        <div class="entry-card-title"> UNTITLED </div>
+        <div class="entry-card-body"> empty </div>
+        <div class="entry-card-date"> #-##-#### </div>
+        <img src="./.xolonotes/images/icons/delete.png" alt="delete">
+    </div>
+`;
 
-    showNotes() {
-        const storedNotes = localStorage.getItem("notes");
-        this.container.innerHTML = storedNotes || ""; // Set empty string if no notes stored
-    }
+const notesContainer = document.querySelector(".notes-container-wrapper");
+const addMoreButton = document.querySelector("#create-button");
 
-    updateStorage() {
-        localStorage.setItem("notes", this.container.innerHTML);
-    }
+addMoreButton.addEventListener("click", () => {
+    console.log("adding card...");
 
-    createNote() {
-        const inputBox  = document.createElement("p");
-        const deleteImg = document.createElement("img");
+    // Generate a unique identifier for the new card
+    const cardId = Date.now(); // You can use any method to create a unique ID
 
-        inputBox.className = "input-box";
-        inputBox.setAttribute("contenteditable", "true");
+    // Create a new DOM element from the template
+    const cardElement = document.createElement("div");
+    cardElement.innerHTML = `
+        <div id=${cardId}>
+        </div>
+    `;
 
-        deleteImg.src = this.deleteImagePath;
+    // Append the new card element to the container
+    notesContainer.appendChild(cardElement);
 
-        this.container.appendChild(inputBox).appendChild(deleteImg);
-        this.notes.push(inputBox); // Add new note to notes array
-        this.updateStorage();
-    }
+    // load up note editor
+    LoadNoteEditor(cardId)
 
-    attachEventListeners() {
-        this.createBtn.addEventListener("click", this.createNote.bind(this)); // Bind 'this' context
+    const closeButton = document.querySelector(".close-btn")
+    closeButton.addEventListener("click", () => {
+        loadCard(cardId)
+    });
 
-        this.container.addEventListener("click", (e) => {
-        if (e.target.tagName === "IMG") {
-            const noteToDelete = e.target.parentElement;
-            this.container.removeChild(noteToDelete);
-            this.notes.splice(this.notes.indexOf(noteToDelete.querySelector("p")), 1); // Remove from notes array
-            this.updateStorage();
-        }
-        else if (e.target.tagName === "P") {
-            this.notes.forEach((note) => {
-            note.addEventListener("keyup", this.updateStorage.bind(this));
-            });
-        }
-        });
-    }
+
+    // Store the card ID in local storage
+    const existingCardIds = JSON.parse(localStorage.getItem("cardIds")) || [];
+    existingCardIds.push(cardId);
+    localStorage.setItem("cardIds", JSON.stringify(existingCardIds));
+});
+
+
+function loadCard(cardId)
+{
+    const entry = document.getElementById(cardId);
+    const savedTitle = localStorage.getItem(`${cardId}-title`);
+    const savedValue = localStorage.getItem(`${cardId}-textarea`);
+
+    entry.innerHTML = `
+        <div class="entry-card" id=${cardId}>
+            <div class="entry-card-title"> ${savedTitle} </div>
+            <div class="entry-card-body"> ${savedValue} </div>
+            <div class="entry-card-date"> #-##-#### </div>
+            <img src="./.xolonotes/images/icons/delete.png" alt="delete">
+        </div>
+    `;
 }
 
-const config = {
-    notes_container: ".notes-container-wrapper",
-    create_btn: ".btn",
-    delete_img_path: "./.xolonotes/images/icons/delete.png",
-    input_box: ".input-box",
-};
 
-const notesManager = new NotesManager(config);
+
+
+const cardIdsString = localStorage.getItem("cardIds");
+
+if (cardIdsString) {
+    const cardIds = JSON.parse(cardIdsString);
+    for (const cardId of cardIds) {
+        console.log(cardId); // Access each card ID here
+
+        // Create a new DOM element from the template
+        const cardElement = document.createElement("div");
+        cardElement.innerHTML = `
+                <div id=${cardId}>
+                </div>
+            `;
+
+        // Append the new card element to the container
+        notesContainer.appendChild(cardElement);
+
+        // load up note editor
+        loadCard(cardId);
+    }
+} else {
+    console.log("No card IDs found in local storage.");
+}

@@ -1,7 +1,26 @@
+/* global */
+@import "/.xolonotes/utility.css";
+@import "/.xolonotes/common.css";
+@import "/.xolonotes/fonts.css";
+
+/* components */
+@import "/.xolonotes/components/card/card.css";
+@import "/.xolonotes/components/header/header.css";
+/* @import "/.xolonotes/components/button/button.css"; */
+@import "/.xolonotes/components/modal/modal.css";
+
+
 body {
     height: 100vh;
     background-image: url('/.xolonotes/images/landscape.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
-};
+}
+
+.entry-card{
+    background-color: bisque;
+    height: auto;
+    width: auto;
+    padding: 15px;
+}

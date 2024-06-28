@@ -1,13 +1,13 @@
-import { loadHeader } from "./components/header/header.mjs";
-import { loadMain } from "./templates/main/main.mjs";
-import { createButton } from "./components/button/button.js";
+import { loadHeader }       from "./components/header/header.mjs";
+import { loadMain }         from      "./templates/main/main.mjs";
+import { createButton }     from  "./components/button/button.js";
 
 loadHeader();
 loadMain();
 
 const buttons = {
     notes : {
-        target    : 'main .container',
+        container    : 'main .container',
         btn_id    : 'notebook-btn',
         img_path  : "./.xolonotes/images/icons/notebook-white.svg",
         img_alt   : "notebook icon",
@@ -16,12 +16,12 @@ const buttons = {
     },
     
     calendar : {
-        target : 'main .button-container',
+        container : 'main .button-container',
         btn_id : 'calendar-btn',
         img_path : "./.xolonotes/images/icons/calendar-white.svg",
         img_alt : "calendar icon",
         img_secondary_path : "./.xolonotes/images/icons/calendar-black.svg",
-        img_secondary_alt : "calendar secondary icon",
+        img_secondary_alt  : "calendar secondary icon",
     },
 }
 

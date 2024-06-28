@@ -9,22 +9,13 @@ function buttonHTML(params){
 `
 }
 
-function load() {
-  const buttonList = document.querySelectorAll("button");
-  buttonList.forEach(button => {
-    console.log(button)
-  });
-}
-
-
-
 export function createButton(params){
   const content = buttonHTML(params)
 
-  if (!params.target.includes(".button-container")){
-    document.querySelector(`${params.target}`).innerHTML += `<div class="button-container">${content}</div>`;
+  if (!params.container.includes(".button-container")){
+    document.querySelector(`${params.container}`).innerHTML += `<div class="button-container">${content}</div>`;
   }else{
-    document.querySelector(`${params.target}`).innerHTML += content;
+    document.querySelector(`${params.container}`).innerHTML += content;
   }
 
   // buttonPurpose(params.btn_id);

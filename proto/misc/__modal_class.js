@@ -1,3 +1,7 @@
+let id_list = [
+
+]
+
 class NoteEditor {
   constructor(id) {
     this.UID = id;
@@ -6,17 +10,18 @@ class NoteEditor {
     this.titleContainer = document.querySelector("name");
     this.notesContainer = document.querySelector("content");
     this.dateContainer  = document.querySelector("date");
-    this.closeButton    = document.querySelector(".close-btn");
+    this.closeButton    = document.querySelector(".close-btn")
 
-    this.title = null;
+    this.title    = null;
     this.textarea = null;
-    this.date = null;
+    this.date     = null;
 
     this.initialize();
   }
 
   initialize() {
     this.createTitle();
+    // this.createCloseButton();
     this.createTextarea();
     this.createCalendar();
     this.loadSavedValue();
@@ -52,6 +57,9 @@ class NoteEditor {
         </div>
     </div>
     `;
+  }
+  createCloseButton(){
+    this.closeButton = document.getElementById("close-btn");
   }
 
   createTitle() {
@@ -103,12 +111,13 @@ class NoteEditor {
     });
 
     this.closeButton.addEventListener("click", () => {
-      document.querySelector("modal").innerHTML = "";
-    });
+      console.log("test")
+      document.querySelector("modal").innerHTML = ""
+    })
   }
 }
 // Instantiate the class
 
-export function LoadNoteEditor(id) {
+export function LoadNoteEditor(id){
   new NoteEditor(id);
 }

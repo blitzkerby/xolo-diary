@@ -27,7 +27,7 @@
     margin-right: 8px;
 }
 
-.container button {
+/* .container button {
     display: flex;
     align-items: center;
     background: linear-gradient(#9418fd, #571094);
@@ -39,7 +39,7 @@
     padding: 15px 25px;
     margin: 30px 0 20px;
     cursor: pointer;
-}
+} */
 
 .notes-container-wrapper {
     display: grid;

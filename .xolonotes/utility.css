@@ -1,3 +1,7 @@
+.flex{
+    display: flex;
+}
+
 .centered-x {
     display: flex;
     justify-content: center;
@@ -6,4 +10,17 @@
 .centered-y {
     display: flex;
     align-items: center;
+}
+
+.align-end {
+    align-self: flex-end;
+}
+
+.align-front {
+    align-self: flex-start;
+}
+
+.even-out {
+    justify-content: space-between;
+    /* or space-around */
 }
