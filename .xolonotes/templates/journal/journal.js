@@ -35,11 +35,8 @@ class NotesApp {
     console.log("Adding card...");
 
     const cardId = Date.now(); // Generate a unique identifier for the new card
-    const cardElement = document.createElement("div");
-
-    cardElement.innerHTML = `
-                <div id="${cardId}"></div>
-            `;
+    const cardElement = document.createElement("card");
+    cardElement.setAttribute("id", cardId);
 
     this.notesContainer.appendChild(cardElement);
 
@@ -47,7 +44,9 @@ class NotesApp {
     LoadNoteEditor(cardId);
 
     const closeButton = document.querySelector(".close-btn");
-    closeButton.addEventListener("click", () => this.loadCard(cardId));
+    closeButton.addEventListener("click", () => {
+      this.loadCard(cardId)
+    });
 
     this.cardIds.push(cardId);
     localStorage.setItem("cardIds", JSON.stringify(this.cardIds));
@@ -68,18 +67,48 @@ class NotesApp {
    *  -----------------------------------
    */
   loadCard(cardId) {
-    const entry = document.getElementById(cardId);
-    const savedTitle = localStorage.getItem(`${cardId}-title`);
-    const savedValue = localStorage.getItem(`${cardId}-textarea`);
+    let entry = document.getElementById(cardId);
+    let savedTitle = localStorage.getItem(`${cardId}-title`) || "Untitled";
+    let savedValue = localStorage.getItem(`${cardId}-textarea`) || "";
 
     entry.innerHTML = `
-            <div class="entry-card" id="${cardId}">
-                <div class="entry-card-title">${savedTitle}</div>
-                <div class="entry-card-body">${savedValue}</div>
-                <div class="entry-card-date">#-##-####</div>
-                <img src="./.xolonotes/images/icons/delete.png" alt="delete">
-            </div>
-        `;
+        <div class="entry-body">
+          <div class="entry-header">
+            <div class="entry-card-title">${savedTitle}</div>
+            <img class="delete-button" src="./.xolonotes/images/icons/delete.png" alt="delete">
+          </div>
+          <div class="entry-card-body">${savedValue}</div>
+        </div>
+        <div class="entry-footer">
+          <div class="entry-card-date">#-##-####</div>
+        </div>
+      `;
+
+    entry.addEventListener("click", function (e) {
+      if (e.target.tagName === "IMG") {
+        document.getElementById(cardId).remove()
+
+        const cardIds = JSON.parse(localStorage.getItem("cardIds")) || [];
+
+        // Find the index of the card ID to remove
+        const indexToRemove = cardIds.indexOf(cardId);
+
+        if (indexToRemove !== -1) {
+          // Remove the card ID from the list
+          cardIds.splice(indexToRemove, 1);
+
+          // Update local storage with the modified list
+          localStorage.setItem("cardIds", JSON.stringify(cardIds));
+        } else {
+          console.log(`Card ID ${cardId} not found.`);
+        }
+
+        localStorage.removeItem(`${cardId}-title`);
+        localStorage.removeItem(`${cardId}-textarea`);
+      } else {
+        LoadNoteEditor(cardId);
+      }
+    });
   }
 
   /*
@@ -96,10 +125,8 @@ class NotesApp {
    */
   loadExistingCards() {
     for (const cardId of this.cardIds) {
-      const cardElement = document.createElement("div");
-      cardElement.innerHTML = `
-                    <div id="${cardId}"></div>
-                `;
+      const cardElement = document.createElement("card");
+      cardElement.setAttribute("id", cardId);
 
       this.notesContainer.appendChild(cardElement);
       this.loadCard(cardId);
@@ -110,7 +137,6 @@ class NotesApp {
     }
   }
 
-  openCard() {}
 }
 
 // Initialize the NotesApp
