@@ -155,6 +155,6 @@ class NotesApp {
 }
 
 // Initialize the NotesApp
-const notesApp = new NotesApp();
+new NotesApp();
 
 
