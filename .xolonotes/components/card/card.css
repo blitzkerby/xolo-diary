@@ -22,10 +22,6 @@
     width: 60px;
 }
 
-.container button img {
-    width: 25px;
-    margin-right: 8px;
-}
 
 /* .container button {
     display: flex;
@@ -44,10 +40,12 @@
 .notes-container-wrapper {
     display: grid;
     width: inherit;
-    grid-template-columns: repeat(3, 1fr);  /* Three columns of equal width */
-    grid-template-rows: 200px auto;         /* First row 200px tall, second row auto-sized */
+    grid-template-columns: repeat(auto-fit, minmax(263px, 176.24px));  /* Three columns of equal width */
+    grid-gap: 30px;
     column-gap: 30px;
-    max-width: 1200px;
+    justify-content: center;
+    height: 100vh;
+    padding: 0 50px;
 }
 
 .input-box {
@@ -70,4 +68,5 @@
     right: 15px;
 
 }
+
 
