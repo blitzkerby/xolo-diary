@@ -104,6 +104,24 @@ class NoteEditor {
 
     this.closeButton.addEventListener("click", () => {
       document.querySelector("modal").innerHTML = "";
+      
+      //from interface not modal
+      let entry         = document.getElementById(this.UID)
+      let savedTitle    = localStorage.getItem(`${this.UID}-title`) || "Untitled"
+      let savedValue    = localStorage.getItem(`${this.UID}-textarea`) || ""
+
+      entry.innerHTML = `
+        <div class="entry-body">
+          <div class="entry-header">
+            <div class="entry-card-title">${savedTitle}</div>
+            <img class="delete-button" src="./.xolonotes/images/icons/delete.png" alt="delete">
+          </div>
+          <div class="entry-card-body">${savedValue}</div>
+        </div>
+        <div class="entry-footer">
+          <div class="entry-card-date">#-##-####</div>
+        </div>
+      `;
     });
   }
 }

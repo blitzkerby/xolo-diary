@@ -9,18 +9,62 @@
 /* @import "/.xolonotes/components/button/button.css"; */
 @import "/.xolonotes/components/modal/modal.css";
 
-
 body {
-    height: 100vh;
+    height: auto;
     background-image: url('/.xolonotes/images/landscape.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
 }
 
-.entry-card{
+modal{
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    
+}
+
+card{
     background-color: bisque;
-    height: auto;
+    padding: 0 15px;
+    padding-top: 15px;
+    min-height: 243.328px;
+    max-height: 425px;
+
+    display: block;
+    align-items: space-between;
+}
+
+.notes-container-wrapper button{
+    background-color: rgba(0,0,0,0);
+    border: none;
+}
+
+.notes-container-wrapper card{
+    /* margin-bottom: 15px; */
+    background-color: bisque;
+}
+
+.notes-container-wrapper {
+
+}
+
+.entry-body{
+    height: 90%;
+}
+
+.entry-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.entry-header img{
+    height: 23px;
     width: auto;
-    padding: 15px;
+}
+
+@media screen and (max-width: 715px) {
+    card{
+        padding-bottom: 15px;
+    }
 }
