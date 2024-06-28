@@ -6,13 +6,28 @@
     margin-top: 100px;
     background-color: white;
     width: 708px;
-    height: 867px;
+    height: 85vh;
     padding: 56px;
 }
 
-.header-container {
+.modal-container .header-container {
     margin-bottom: 27px;
-    /* background-color: #bdbdbd44; */
+    display: flex;
+}
+
+.modal-container name{
+    max-height: 92px;
+    overflow-y: scroll;
+    display: flex;
+    align-items: flex-start;
+}
+
+name{
+    width: 80%
+}
+
+name h1{
+    overflow-wrap: anywhere;
 }
 
 .header-container:hover,
@@ -28,20 +43,15 @@
 .content-container textarea,
 .content-container p {
     width: 100%;
-    height: 633px;
+    height: 100%;
     padding: 5px;
-    /* background-color: #bdbdbd44; */
 }
 
 .content-container {
     border-top: 1px solid #000000;
-    /* Set border style, width, and color */
     border-bottom: 1px solid #000000;
-    /* Set border style, width, and color */
     padding: 37px 0;
-    height: 633px;
-    /* overflow-y: scroll; */
-    /* background-color: #bdbdbd44; Add a background color */
+    height: 80%;
 }
 
 .date-container {

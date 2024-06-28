@@ -1,7 +1,13 @@
 import { LoadNoteEditor } from "../../components/modal/modal.js";
 
+
+const config = {
+  font_family: "dm-mono-regular",
+};
+
 class NotesApp {
   constructor() {
+    this.modal = document.querySelector("modal");
     this.notesContainer = document.querySelector(".notes-container-wrapper");
     this.addMoreButton = document.querySelector("#create-button");
     this.cardIds = JSON.parse(localStorage.getItem("cardIds")) || [];
@@ -32,7 +38,8 @@ class NotesApp {
    *  -----------------------------------
    */
   addCard() {
-    console.log("Adding card...");
+    // console.log("Adding card...");
+    this.modal.classList.remove("hidden");
 
     const cardId = Date.now(); // Generate a unique identifier for the new card
     const cardElement = document.createElement("card");
@@ -70,35 +77,42 @@ class NotesApp {
     let entry = document.getElementById(cardId);
     let savedTitle = localStorage.getItem(`${cardId}-title`) || "Untitled";
     let savedValue = localStorage.getItem(`${cardId}-textarea`) || "";
+    let savedDate  = localStorage.getItem(`${cardId}-date`) || "##-##-####";
+
+    // Set a maximum word limit
+    const maxWords = 28;
+    const words = savedValue.split(/\s+/); // Split by whitespace
+    const truncatedValue = words.slice(0, maxWords).join(" ");
 
     entry.innerHTML = `
         <div class="entry-body">
           <div class="entry-header">
-            <div class="entry-card-title">${savedTitle}</div>
+            <div class="entry-card-title ${config.font_family}">
+              ${savedTitle}
+            </div>
             <img class="delete-button" src="./.xolonotes/images/icons/delete.png" alt="delete">
           </div>
-          <div class="entry-card-body">${savedValue}</div>
+          <div class="entry-card-body ${config.font_family}">
+            ${truncatedValue}
+          </div>
         </div>
         <div class="entry-footer">
-          <div class="entry-card-date">#-##-####</div>
+          <div class="entry-card-date ${config.font_family}">
+            ${savedDate}
+          </div>
         </div>
       `;
 
     entry.addEventListener("click", function (e) {
       if (e.target.tagName === "IMG") {
-        document.getElementById(cardId).remove()
+        document.getElementById(cardId).remove();
 
         const cardIds = JSON.parse(localStorage.getItem("cardIds")) || [];
-
-        // Find the index of the card ID to remove
-        const indexToRemove = cardIds.indexOf(cardId);
+        const indexToRemove = cardIds.indexOf(cardId);  // Find the index of the card ID to remove
 
         if (indexToRemove !== -1) {
-          // Remove the card ID from the list
-          cardIds.splice(indexToRemove, 1);
-
-          // Update local storage with the modified list
-          localStorage.setItem("cardIds", JSON.stringify(cardIds));
+          cardIds.splice(indexToRemove, 1); // Remove the card ID from the list
+          localStorage.setItem("cardIds", JSON.stringify(cardIds)); // Update local storage with the modified list
         } else {
           console.log(`Card ID ${cardId} not found.`);
         }
@@ -106,6 +120,7 @@ class NotesApp {
         localStorage.removeItem(`${cardId}-title`);
         localStorage.removeItem(`${cardId}-textarea`);
       } else {
+        document.querySelector("modal").classList.remove("hidden");
         LoadNoteEditor(cardId);
       }
     });
