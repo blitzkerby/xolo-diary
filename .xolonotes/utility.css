@@ -25,7 +25,17 @@
 }
 
 .spacing-top-most{
-    margin-top: 90px;
+    margin-top: 120px;
+}
+
+@media screen and (max-width: 672px) {
+    .spacing-top-most{
+        margin-top: 30px;
+    }
+
+    .section-space{
+        margin-top: 10px;
+    }
 }
 
 .no-scrolling{
@@ -38,4 +48,12 @@
 
 .screen-size{
     height: 150vh;
+}
+
+.screen-fit{
+    width: 80vh;
+}
+
+.section-space{
+    margin-top: 30px;
 }

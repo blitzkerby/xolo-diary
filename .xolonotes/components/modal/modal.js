@@ -118,7 +118,7 @@ class NoteEditor {
                   type  = "date" 
                   id    = "calendar" 
                   name  = "trip-start" 
-                  value = "2023-12-13" 
+                  value = "" 
                   min   = "" 
                   max   = "" />
     `; 
