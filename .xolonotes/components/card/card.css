@@ -71,3 +71,102 @@
 }
 
 
+card {
+    background-color: bisque;
+    padding: 0 15px;
+    padding-top: 15px;
+    min-height: 243.328px;
+    max-height: 425px;
+
+    display: block;
+    align-items: space-between;
+}
+
+card:active , card:hover {
+    transform: scale(0.9) rotate(3deg);
+    background: radial-gradient(circle farthest-corner at 10% 20%, rgba(255, 94, 247, 1) 17.8%, rgba(2, 245, 255, 1) 100.2%);
+    transition: 0.5s;
+}
+
+.notes-container-wrapper button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.notes-container-wrapper card {
+    /* margin-bottom: 15px; */
+    background-color: bisque;
+}
+
+.entry-body {
+    height: 90%;
+}
+
+.entry-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.entry-card-title {
+    width: 80%;
+    font-size: var(--card-title-size);
+    margin-bottom: 20px;
+}
+
+.entry-card-body {
+    height: 80%;
+}
+
+.entry-card-title,
+.entry-card-body {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.entry-card-date {
+    display: flex;
+    justify-content: end;
+}
+
+.entry-header img {
+    height: 23px;
+    width: auto;
+}
+
+@media screen and (max-width: 1008px) {
+    .entry-body {
+        height: 83%;
+    }
+
+    .entry-card-body {
+        height: 80%;
+        margin-bottom: 10px;
+    }
+}
+
+
+/*
+ *  Buttons
+ */
+
+modal .close-btn {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff80;
+    text-shadow: none;
+    background: black;
+    cursor: pointer;
+    box-shadow: transparent;
+    border: 1px solid #ffffff80;
+    transition: 0.5s ease;
+    user-select: none;
+    margin-right: 0;
+}
