@@ -44,8 +44,9 @@
     grid-gap: 30px;
     column-gap: 30px;
     justify-content: center;
-    height: 100vh;
+    height: 140vh;
     padding: 0 50px;
+
 }
 
 .input-box {
