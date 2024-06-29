@@ -9,7 +9,7 @@ class NotesApp {
   constructor() {
     this.modal = document.querySelector("modal");
     this.notesContainer = document.querySelector(".notes-container-wrapper");
-    this.addMoreButton = document.querySelector("#create-button");
+    this.addMoreButton = document.querySelector("#create-card");
     this.cardIds = JSON.parse(localStorage.getItem("cardIds")) || [];
 
     this.addMoreButton.addEventListener("click", this.addCard.bind(this));
