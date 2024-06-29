@@ -71,3 +71,10 @@ button {
     border: 2px solid burlywood;
     border-radius: 5px;
 }
+
+
+@media screen and (min-width: 768px) {
+    .modal-container{
+        margin-top: 20px;
+    }
+}
