@@ -10,16 +10,21 @@ class TextGenerator {
       hero_text: {
         element: "h1",
         class: "poppins-extrabold gradient-text",
-        text: "Ready to jump back in?",
+        text_welcome: "Ready to jump in?",
+        text_return: "Ready to jump back in?",
       },
     };
   }
 
   createText(params) {
-    let greet_text = localStorage.getItem("cardIds") !== null ? params.text_return : params.text_welcome;
+    let text =
+      localStorage.getItem("cardIds") !== null
+        ? params.text_return
+        : params.text_welcome;
+
     return `
       <${params.element} class="${params.class}">
-        ${greet_text || params.text}
+        ${text}
       </${params.element}>
     `;
   }

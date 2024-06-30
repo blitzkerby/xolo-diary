@@ -59,6 +59,12 @@ html {
     visibility: hidden;
 }
 
+/*
+ * Media Queries
+ * (this template is here for future use)
+ */
+
+
 @media screen and (max-width: 672px)
 {
 
