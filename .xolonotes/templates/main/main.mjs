@@ -1,11 +1,11 @@
 class TextGenerator {
-  constructor(username) {
-    this.username = username;
+  constructor() {
     this.options = {
       greeting: {
         element: "h2",
         class: "poppins-light gradient-text",
-        text: `Welcome back, ${this.username}`,
+        text_welcome : 'Welcome.',
+        text_return: 'Welcome back.',
       },
       hero_text: {
         element: "h1",
@@ -16,9 +16,10 @@ class TextGenerator {
   }
 
   createText(params) {
+    let greet_text = localStorage.getItem("cardIds") !== null ? params.text_return : params.text_welcome;
     return `
       <${params.element} class="${params.class}">
-        ${params.text}
+        ${greet_text || params.text}
       </${params.element}>
     `;
   }
@@ -37,7 +38,7 @@ class TextGenerator {
   }
 }
 
-export function generateMain(name){
-  const textGenerator = new TextGenerator(name);
+export function generateMain(){
+  const textGenerator = new TextGenerator();
   textGenerator.loadMain();
 }
