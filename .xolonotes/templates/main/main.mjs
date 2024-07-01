@@ -34,6 +34,7 @@ class TextGenerator {
     const name = localStorage.getItem('name')
     if (name !== "") {
       this.options.greeting.text_welcome = `Welcome, ${localStorage.getItem("name")}.`;
+      this.options.greeting.text_return = `Welcome back, ${localStorage.getItem("name")}.`;
     }
   }
 
