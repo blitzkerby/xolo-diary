@@ -72,8 +72,7 @@ class NoteEditor {
         class           = "dm-mono-regular"
         id              = "title"
         contenteditable = "true"
-      ></h1>
-    `;
+      ></h1>`;
 
     this.titleContainer.innerHTML = name;
     this.title = document.getElementById("title");

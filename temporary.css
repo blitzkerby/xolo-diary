@@ -93,3 +93,12 @@
         blinkCursor 0.5s step-end infinite alternate;
     margin-top: 1.5em;
 }
+
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: antiquewhite;
+    bottom: 0;
+    position: fixed;
+}

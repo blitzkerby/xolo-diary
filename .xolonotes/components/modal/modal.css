@@ -24,8 +24,7 @@
 name{
     width: 80%
 }
-
-name h1{
+name h1 {
     overflow-wrap: anywhere;
 }
 
@@ -34,9 +33,7 @@ name h1{
 .content-container p:hover,
 .date-container p:hover {
     cursor: pointer;
-    /* color: rgb(88, 88, 88); Change to your desired color */
     text-decoration: underline;
-    /* Optional: Add an underline effect */
 }
 
 .content-container textarea,
@@ -69,12 +66,15 @@ button {
     background-color: beige;
     border: 2px solid burlywood;
     border-radius: 5px;
-    top: 5px;
 }
 
 
 @media screen and (max-width: 768px) {
     .modal-container{
         margin-top: 20px ;
+    }
+
+    modal{
+        top: 5px;
     }
 }
