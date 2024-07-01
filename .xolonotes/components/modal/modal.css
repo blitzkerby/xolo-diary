@@ -25,7 +25,8 @@ name{
     width: 80%
 }
 name h1 {
-    overflow-wrap: anywhere;
+    overflow-wrap: break-word;
+    width: inherit;
 }
 
 .header-container:hover,

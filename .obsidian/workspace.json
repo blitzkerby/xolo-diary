@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1f234665392565ae",
+        "id": "74e138f4d2b87d1f",
         "type": "tabs",
         "children": [
           {
-            "id": "454dac4d4a6c3fb1",
+            "id": "99089e4c72f00627",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Home.md",
-                "mode": "source",
-                "source": false
+                "file": "3rd Mission.pdf"
               }
             }
           }
@@ -93,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "3rd Mission.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "3rd Mission.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "3rd Mission.pdf"
               }
             }
           },
@@ -180,15 +178,17 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "454dac4d4a6c3fb1",
+  "active": "99089e4c72f00627",
   "lastOpenFiles": [
+    "Documentation (For Advanced Users).md",
+    "3rd Mission.pdf",
+    "3rd missiion for indivisual.pdf",
+    "Convention Guide.md",
+    "Home.md",
     "01 - docs/Convention Guide.md",
     "01 - docs/Documentation (For Advanced Users).md",
     "01 - docs/ReadMe.md",
     "02 - obsidian/TODO-LIST.md",
-    "Documentation (For Advanced Users).md",
-    "Home.md",
-    "Convention Guide.md",
     "02 - obsidian/Update Log/2024-06-20 Revamping of UI Cards.md",
     "Documentation of Diary Application.md",
     "index.html",

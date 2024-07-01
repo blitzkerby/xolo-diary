@@ -70,3 +70,9 @@ html {
 
 }
 
+@media screen and (max-width: 383px) {
+    .hero-title{
+        display: block !important;
+    }
+
+}

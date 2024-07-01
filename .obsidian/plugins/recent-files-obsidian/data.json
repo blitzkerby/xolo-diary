@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "3rd Mission",
+      "path": "3rd Mission.pdf"
+    },
+    {
+      "basename": "Documentation (For Advanced Users)",
+      "path": "Documentation (For Advanced Users).md"
+    },
+    {
+      "basename": "Convention Guide",
+      "path": "Convention Guide.md"
+    },
+    {
       "basename": "Home",
       "path": "Home.md"
     },
@@ -19,14 +31,6 @@
     {
       "basename": "TODO-LIST",
       "path": "02 - obsidian/TODO-LIST.md"
-    },
-    {
-      "basename": "Documentation (For Advanced Users)",
-      "path": "Documentation (For Advanced Users).md"
-    },
-    {
-      "basename": "Convention Guide",
-      "path": "Convention Guide.md"
     },
     {
       "basename": "2024-06-20 Revamping of UI Cards",
