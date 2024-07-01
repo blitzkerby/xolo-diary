@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
       "basename": "Convention Guide",
       "path": "01 - docs/Convention Guide.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "Documentation (For Advanced Users)",
       "path": "Documentation (For Advanced Users).md"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
     },
     {
       "basename": "Convention Guide",
