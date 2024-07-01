@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "92a5b1cbf734b602",
+        "id": "4244083c10941bb2",
         "type": "tabs",
         "children": [
           {
-            "id": "c7aecbdc4ab57b5a",
+            "id": "a2038bbd35bd9221",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Documentation (For Advanced Users).md",
+                "file": "Home.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "458c668b1840cf2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - docs/Convention Guide.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Documentation (For Advanced Users).md",
+                "file": "01 - docs/Convention Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Documentation (For Advanced Users).md",
+                "file": "01 - docs/Convention Guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Documentation (For Advanced Users).md"
+                "file": "01 - docs/Convention Guide.md"
               }
             }
           },
@@ -180,13 +193,15 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "c7aecbdc4ab57b5a",
+  "active": "458c668b1840cf2e",
   "lastOpenFiles": [
-    "Convention Guide.md",
-    "Home.md",
-    "02 - obsidian/Update Log/2024-06-20 Revamping of UI Cards.md",
+    "01 - docs/Documentation (For Advanced Users).md",
+    "01 - docs/ReadMe.md",
     "02 - obsidian/TODO-LIST.md",
     "Documentation (For Advanced Users).md",
+    "Home.md",
+    "Convention Guide.md",
+    "02 - obsidian/Update Log/2024-06-20 Revamping of UI Cards.md",
     "Documentation of Diary Application.md",
     "index.html",
     "README.md"
