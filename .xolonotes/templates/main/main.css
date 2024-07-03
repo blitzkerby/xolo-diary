@@ -4,6 +4,7 @@
 @import "/.xolonotes/fonts.css";
 
 /* components */
+@import "/.xolonotes/components/footer/footer.css";
 @import "/.xolonotes/components/card/card.css";
 @import "/.xolonotes/components/header/header.css";
 @import "/.xolonotes/components/button/button.css";
@@ -63,6 +64,37 @@ html {
  * Media Queries
  * (this template is here for future use)
  */
+
+sub-main input {
+    height: 3rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    background-color: rgb(189 189 189 / 92%);
+    ;
+}
+
+.form {
+    background: rgb(193 193 193 / 60%);
+    height: 23vh;
+    width: 85vw;
+    border-radius: 2rem;
+    margin: 15px;
+    max-width: 450px;
+}
+
+.form .button-group {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn {
+    padding: 1vw 2vw;
+    min-width: 106px;
+}
+
+
 
 
 @media screen and (max-width: 672px)

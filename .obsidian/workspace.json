@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "01 - docs/ReadMe.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "01 - docs/ReadMe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "01 - docs/ReadMe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "01 - docs/ReadMe.md"
               }
             }
           },
@@ -182,17 +182,17 @@
   },
   "active": "ceab9c1d983e2ce8",
   "lastOpenFiles": [
+    "01 - docs/Documentation (For Advanced Users).md",
+    "Home.md",
     "3rd Mission.pdf",
     "02 - obsidian/TODO-LIST.md",
     "02 - obsidian/Update Log/2024-06-20 Revamping of UI Cards.md",
     "02 - obsidian/Update Log/2024-06-18 Overhauled UI Design.md",
     "02 - obsidian/Update Log/2024-06-17 Created UI Design.md",
-    "Home.md",
     "Documentation (For Advanced Users).md",
     "3rd missiion for indivisual.pdf",
     "Convention Guide.md",
     "01 - docs/Convention Guide.md",
-    "01 - docs/Documentation (For Advanced Users).md",
     "01 - docs/ReadMe.md",
     "Documentation of Diary Application.md",
     "index.html",

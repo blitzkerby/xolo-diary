@@ -4,6 +4,7 @@
 @import "/.xolonotes/fonts.css";
 
 /* components */
+@import "/.xolonotes/components/footer/footer.css";
 @import "/.xolonotes/components/card/card.css";
 @import "/.xolonotes/components/header/header.css";
 @import "/.xolonotes/components/button/button.css";
@@ -44,4 +45,3 @@ modal{
     border-radius: 20px;
     background: #888;
 }
-

@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "ReadMe",
+      "path": "01 - docs/ReadMe.md"
+    },
+    {
+      "basename": "Documentation (For Advanced Users)",
+      "path": "01 - docs/Documentation (For Advanced Users).md"
+    },
+    {
       "basename": "Home",
       "path": "Home.md"
     },
@@ -35,14 +43,6 @@
     {
       "basename": "Convention Guide",
       "path": "01 - docs/Convention Guide.md"
-    },
-    {
-      "basename": "Documentation (For Advanced Users)",
-      "path": "01 - docs/Documentation (For Advanced Users).md"
-    },
-    {
-      "basename": "ReadMe",
-      "path": "01 - docs/ReadMe.md"
     },
     {
       "basename": "Space-theme",
