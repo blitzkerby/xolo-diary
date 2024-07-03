@@ -68,6 +68,7 @@ header , header img{
 
 .nav-logo{
     width: 50px;
+    z-index: 1500;
 }
 
 .nav-text{

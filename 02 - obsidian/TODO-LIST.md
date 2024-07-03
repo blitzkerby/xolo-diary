@@ -10,9 +10,9 @@ kanban-plugin: board
 
 ## DEVELOPMENT
 
-- [ ] work on __hoverButton.js
-- [ ] work on buttonPurpose.js
-- [ ] work on button.js
+- [x] work on __hoverButton.js
+- [x] work on buttonPurpose.js
+- [x] work on button.js
 
 
 ## PRODUCTION
@@ -27,8 +27,8 @@ kanban-plugin: board
 - [x] Build default card
 - [x] Build animation state for card
 - [x] Build create card
-- [ ] Build footer component for each UI screen
-- [ ] Build modal interface for creating and editing cards
+- [x] Build footer component for each UI screen
+- [x] Build modal interface for creating and editing cards
 - [x] Build interactive home page
 
 
@@ -36,9 +36,9 @@ kanban-plugin: board
 
 - [x] build a system architecture
 - [x] build an information architecture
-- [ ] build a CRUD template
-- [ ] build convention guide
-- [ ] build flowguide
+- [x] build a CRUD template
+- [x] build convention guide
+- [x] build flowguide
 - [ ] build IA
 - [ ] build documentation
 

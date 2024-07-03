@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "74e138f4d2b87d1f",
+        "id": "9a7023556789e748",
         "type": "tabs",
         "children": [
           {
-            "id": "99089e4c72f00627",
+            "id": "ceab9c1d983e2ce8",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "3rd Mission.pdf"
+                "file": "Home.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -91,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3rd Mission.pdf",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3rd Mission.pdf",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3rd Mission.pdf"
+                "file": "Home.md"
               }
             }
           },
@@ -178,18 +180,20 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "99089e4c72f00627",
+  "active": "ceab9c1d983e2ce8",
   "lastOpenFiles": [
-    "Documentation (For Advanced Users).md",
     "3rd Mission.pdf",
+    "02 - obsidian/TODO-LIST.md",
+    "02 - obsidian/Update Log/2024-06-20 Revamping of UI Cards.md",
+    "02 - obsidian/Update Log/2024-06-18 Overhauled UI Design.md",
+    "02 - obsidian/Update Log/2024-06-17 Created UI Design.md",
+    "Home.md",
+    "Documentation (For Advanced Users).md",
     "3rd missiion for indivisual.pdf",
     "Convention Guide.md",
-    "Home.md",
     "01 - docs/Convention Guide.md",
     "01 - docs/Documentation (For Advanced Users).md",
     "01 - docs/ReadMe.md",
-    "02 - obsidian/TODO-LIST.md",
-    "02 - obsidian/Update Log/2024-06-20 Revamping of UI Cards.md",
     "Documentation of Diary Application.md",
     "index.html",
     "README.md"
