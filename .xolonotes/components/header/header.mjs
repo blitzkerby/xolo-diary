@@ -23,18 +23,24 @@ function imgHTML (item)
 
 const xoloHTML    = imgHTML(header_assets.xolo_logo);
 const githubHTML  = imgHTML(header_assets.github_logo);
-const homeHTML    = imgHTML(header_assets.page_text.home);
-const journalHTML = imgHTML(header_assets.page_text.journal);
+// const homeHTML    = imgHTML(header_assets.page_text.home);
+// const journalHTML = imgHTML(header_assets.page_text.journal);
 
-export function loadHeader()
-{
-  document.querySelector("header").innerHTML = `
-  <ul class="nav-list">
+export function loadHeader() {
+  const header = document.querySelector("header");
+  const elementId = header.getAttribute("id");
+
+  // Dynamically select the correct page text based on elementId
+  const pageText = header_assets.page_text[elementId];
+  const pageImg = imgHTML(pageText);
+
+  header.innerHTML = `
+    <ul class="nav-list">
       <li class="nav-item nav-logo">${xoloHTML}</li>
-      <li class="nav-item nav-text">${homeHTML}</li>
+      <li class="nav-item nav-text">${pageImg}</li>
       <li class="nav-item nav-logo">${githubHTML}</li>
-  </ul>
-  <div class="header-canvas left-shift"><div>
-  <div class="header-canvas right-shift"><div>
+    </ul>
+    <div class="header-canvas left-shift"></div>
+    <div class="header-canvas right-shift"></div>
   `;
 }
