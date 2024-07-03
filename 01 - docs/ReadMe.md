@@ -1,11 +1,16 @@
 ---
 ~
 ---
----
+
 
 # Getting Started
 ---
-Visit the following link to clone the repository.
+
+### 1. Cloning the Repository
+---
+```
+git clone https://github.com/blitzkerby/xolo-diary
+```
 
 
 

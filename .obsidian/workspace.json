@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - docs/ReadMe.md",
+                "file": "Convention Guide.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 345.5
+    "width": 222.5,
+    "collapsed": true
   },
   "right": {
     "id": "86e677a152ca1adf",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - docs/ReadMe.md",
+                "file": "Convention Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 - docs/ReadMe.md",
+                "file": "Convention Guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 - docs/ReadMe.md"
+                "file": "Convention Guide.md"
               }
             }
           },
@@ -182,18 +183,18 @@
   },
   "active": "ceab9c1d983e2ce8",
   "lastOpenFiles": [
+    "01 - docs/Convention Guide.md",
     "01 - docs/Documentation (For Advanced Users).md",
-    "Home.md",
-    "3rd Mission.pdf",
+    "01 - docs/ReadMe.md",
     "02 - obsidian/TODO-LIST.md",
     "02 - obsidian/Update Log/2024-06-20 Revamping of UI Cards.md",
+    "Convention Guide.md",
+    "ReadMe.md",
+    "Home.md",
+    "3rd Mission.pdf",
     "02 - obsidian/Update Log/2024-06-18 Overhauled UI Design.md",
     "02 - obsidian/Update Log/2024-06-17 Created UI Design.md",
-    "Documentation (For Advanced Users).md",
     "3rd missiion for indivisual.pdf",
-    "Convention Guide.md",
-    "01 - docs/Convention Guide.md",
-    "01 - docs/ReadMe.md",
     "Documentation of Diary Application.md",
     "index.html",
     "README.md"

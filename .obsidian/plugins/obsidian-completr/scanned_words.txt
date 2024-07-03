@@ -3802,6 +3802,7 @@ oSu
 oZg
 oTVj
 oUg
+obtained
 Length
 Language
 LUC
@@ -13929,6 +13930,7 @@ Revamping
 Removed
 RVV
 RFI
+Repository
 ic
 iV
 iw
@@ -16279,6 +16281,7 @@ ieX
 iuh
 iLEEE
 ibb
+inedx
 endstream
 endobj
 eq
@@ -17933,6 +17936,7 @@ elegant
 exchange
 esN
 eCG
+exists
 Type
 Tx
 TY
@@ -33247,6 +33251,7 @@ Cards
 Changes
 Changed
 CLSF
+Cloning
 DeviceRGB
 DCTDecode
 Dq
@@ -48876,6 +48881,7 @@ fowS
 festival
 flowguide
 fbY
+fork
 OFS
 OG
 OpT
@@ -71547,6 +71553,7 @@ lRF
 lKNE
 lwx
 lre
+lveserver
 hz
 hk
 hp
@@ -73642,6 +73649,7 @@ hNz
 hiD
 hoverButton
 hwH
+haven
 VW
 Va
 VgR
@@ -80901,6 +80909,8 @@ ADDED
 AAAJ
 Avv
 ARb
+Alternatively
+Assuming
 ug
 uE
 uj
