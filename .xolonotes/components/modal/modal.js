@@ -49,17 +49,6 @@ class NoteEditor {
           </div>
           <div class="date-container">
               <date></date>
-              <!-- <p class="dm-mono-regular">
-                  2021-01-01
-              </p> -->
-              <!-- <input 
-                  class = "dm-mono-regular"
-                  type  = "date" 
-                  id    = "start" 
-                  name  = "trip-start" 
-                  value = "" 
-                  min   = "" 
-                  max   = "" /> -->
           </div>
         </div>
     </div>
