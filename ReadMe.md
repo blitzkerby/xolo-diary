@@ -6,7 +6,6 @@
 
 - Create new notes with titles and content.
 - Edit existing notes.
-- Organize notes using a simple folder structure (optional).
 
 ## **Getting Started**
 
@@ -43,7 +42,7 @@ Feel free to modify the HTML, CSS, and JavaScript files to customize the appeara
 
 MIT License
 
-Copyright (c) [year] [fullname]
+Copyright (c) 2024 Komodo Dragon
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
